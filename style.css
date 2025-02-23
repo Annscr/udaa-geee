@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Menyusun konten secara horizontal di tengah */
+    align-items: center; /* Menyusun konten secara vertikal di tengah */
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+.wrapper {
+    text-align: center; /* Menyusun teks di dalam wrapper agar tetap di tengah */
+}
+
+h2 {
+    font-size: 3em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.gif {
+    max-width: 100%; /* Membuat gambar tidak lebih besar dari ukuran kontainer */
+    height: auto;
+    margin: 20px 0; /* Menambahkan jarak antara gambar dan teks */
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center; /* Menyusun tombol secara horizontal di tengah */
+    margin-top: 50px;
+    width: 100%;
+}
+
+button {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    background-color: #e94d58;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+button:nth-child(2) {
+    background-color: white;
+    color: #e94d58;
+}
+
+button:hover {
+    background-color: #d8414b;
+}
